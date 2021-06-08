@@ -7,32 +7,38 @@ body{
     font-family: sans-serif;
     background-color: rgba(225, 178, 243, 0.856);
 }
-.logo{ 
-    width: 50px;
-    margin-left: 100px;
-    padding-bottom: 0;
-    padding-top: 30px;
-}
 header{
     display: flex;
     background-color: white;
-    align-items: center;
-    text-align: center;
     padding: 0px;
 }
+.logo{ 
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-bottom: 0;
+}
 nav{
+    align-items: center;
+    margin-left: 700px;
+    display: inline-flex;
     flex: 1;
 }
 nav ul{
-    display: inline-block;
+    display: flex;
     list-style-type: none;
 }
 nav ul li{
-    display: inline-block;
-    margin-right: 70px;
+    font-weight: bold;
+    margin-right: 50px;
 }
 nav ul li a:hover{
-    color: #535bc4;
+    color: #0011ff;
+    border-bottom: 3px solid orange;
+}
+nav img{
+    width: 20px;
+    height: 20px;
 }
 a{
     text-decoration: none;
@@ -158,6 +164,7 @@ p{
 .biodata{
     flex-basis: 50%;
     min-width: 300px;
+    margin-top: 60px;
 }
 .biodata .col-2{
     background-color: #222;
@@ -186,12 +193,19 @@ p{
     font-size: 16px;
 }
 aside{
+    flex-basis: 50%;
+    width: 500px;
+    margin-left: 700px;
     background-color: #222;
     text-align: center;
     padding: 40px 20px;
-    box-shadow: 0 0 10px 0px rgb(75, 69, 69);
+    box-shadow: 0 0 20px 0px rgb(75, 69, 69);
     cursor: pointer;
     transition: transform 0.5s;
+}
+aside h1{
+    color: white;
+    font-size: 30px;
 }
 #Indicator{
     width: 100px;
@@ -199,10 +213,10 @@ aside{
     background: #ff523b;
     height: 3px;
     margin-top: 8px;
-    transform: translateX(507px);
+    transform: translateX(180px);
 }
 aside img{
-    width: 50px;
+    width: 150px;
     margin-top: 20px;
     border-radius: 50%;
 }
@@ -210,14 +224,15 @@ aside:hover{
     transform: translateY(-10px);
 }
 aside p{
-    font-size: 12px;
+    font-size: 15px;
     margin: 12px 0;
     color: white;
+    text-align: center;
 }
 aside h3{
     font-weight: 600;
-    color: white;
-    font-size: 16px;
+    color: rgb(28, 196, 145);
+    font-size: 25px;
 }
 footer{
     background-color: black;
