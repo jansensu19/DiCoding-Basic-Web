@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgba(225, 178, 243, 0.856);
+}
+.logo{ 
+    width: 50px;
+    margin-left: 100px;
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+header{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+nav{
+    flex: 1;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a:hover{
+    color: #535bc4;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: black;
+}
+/*-------- media query for menu --------*/
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        opacity: 0.6;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: black;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 60px;
+    margin: 25px 0;
+    color: black;
+}
+.col-2 p{
+    margin: 25px 5px;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 10px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.col-3{
+    border-top: none;
+    border-bottom: none;
+    flex-basis: 30%;
+    min-width: 340px;
+    margin-top: 5px;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.aboutus{
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+.aboutus .col-3{
+    background-color: #222;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 10px 0px rgb(75, 69, 69);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.aboutus .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.aboutus .col-3:hover{
+    transform: translateY(-10px);
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: white;
+}
+.aboutus .col-3 h3{
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+}
+.biodata{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.biodata .col-2{
+    background-color: #222;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 10px 0px rgb(75, 69, 69);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.biodata .col-2 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.biodata .col-2:hover{
+    transform: translateY(-10px);
+}
+.biodata .col-2 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: white;
+}
+.biodata .col-2 h3{
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+}
+aside{
+    background-color: #222;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 10px 0px rgb(75, 69, 69);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(507px);
+}
+aside img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+aside:hover{
+    transform: translateY(-10px);
+}
+aside p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: white;
+}
+aside h3{
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+}
+footer{
+    background-color: black;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
