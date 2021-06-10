@@ -10,25 +10,24 @@ body{
 header{
     display: flex;
     background-color: white;
+    align-items: center;
+    text-align: center;
     padding: 0px;
 }
 .logo{ 
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 50px;
+    width: 50px;
+    margin-left: 100px;
     padding-bottom: 0;
 }
 nav{
-    align-items: center;
-    margin-left: 700px;
-    display: inline-flex;
     flex: 1;
 }
 nav ul{
-    display: flex;
+    display: inline-block;
     list-style-type: none;
 }
 nav ul li{
+    display: inline-block;
     font-weight: bold;
     margin-right: 50px;
 }
@@ -37,6 +36,7 @@ nav ul li a:hover{
     border-bottom: 3px solid orange;
 }
 nav img{
+    opacity: 0;
     width: 20px;
     height: 20px;
 }
@@ -51,9 +51,8 @@ p{
 @media only screen and (max-width: 800px){
     nav ul{
         position: absolute;
-        top: 70px;
-        left: 0;
-        background: #333;
+        top: 0;
+        left: 200px;
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
@@ -69,8 +68,10 @@ p{
         color: black;
     }
     .menu-icon{
-        display: block;
+        display: inline-block;
+        margin-left: 50px;
         cursor: pointer;
+        opacity: 1;
     }
 }
 .container{
@@ -95,13 +96,15 @@ p{
 }
 .col-2 h1{
     font-size: 50px;
-    font-weight: normal;
+    font-weight: bolder;
     line-height: 60px;
     margin: 25px 0;
     color: black;
 }
 .col-2 p{
     margin: 25px 5px;
+    font-weight: lighter;
+    color: rgb(21, 6, 230);
 }
 .btn{
     display: inline-block;
@@ -194,8 +197,8 @@ p{
 }
 aside{
     flex-basis: 50%;
-    width: 500px;
-    margin-left: 700px;
+    width: 400px;
+    margin: auto;
     background-color: #222;
     text-align: center;
     padding: 40px 20px;
