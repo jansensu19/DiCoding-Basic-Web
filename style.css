@@ -106,6 +106,32 @@ p{
     font-weight: lighter;
     color: rgb(21, 6, 230);
 }
+.container-feature{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-2-feature{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2-feature img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2-feature h1{
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 60px;
+    margin: 25px 0;
+    color: black;
+}
+.col-2-feature p{
+    margin: 25px 5px;
+    font-weight: lighter;
+    color: rgb(21, 6, 230);
+}
 .btn{
     display: inline-block;
     background: #ff523b;
@@ -139,7 +165,7 @@ p{
     margin-bottom: 30px;
 }
 .aboutus .col-3{
-    background-color: #222;
+    background-color: rgb(42, 83, 129);
     text-align: center;
     padding: 40px 20px;
     box-shadow: 0 0 10px 0px rgb(75, 69, 69);
@@ -164,42 +190,11 @@ p{
     color: white;
     font-size: 16px;
 }
-.biodata{
-    flex-basis: 50%;
-    min-width: 300px;
-    margin-top: 60px;
-}
-.biodata .col-2{
-    background-color: #222;
-    text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 0 10px 0px rgb(75, 69, 69);
-    cursor: pointer;
-    transition: transform 0.5s;
-}
-.biodata .col-2 img{
-    width: 50px;
-    margin-top: 20px;
-    border-radius: 50%;
-}
-.biodata .col-2:hover{
-    transform: translateY(-10px);
-}
-.biodata .col-2 p{
-    font-size: 12px;
-    margin: 12px 0;
-    color: white;
-}
-.biodata .col-2 h3{
-    font-weight: 600;
-    color: white;
-    font-size: 16px;
-}
 aside{
     flex-basis: 50%;
     width: 400px;
     margin: auto;
-    background-color: #222;
+    background-color: rgb(42, 83, 129);
     text-align: center;
     padding: 40px 20px;
     box-shadow: 0 0 20px 0px rgb(75, 69, 69);
@@ -215,8 +210,8 @@ aside h1{
     border: none;
     background: #ff523b;
     height: 3px;
+    margin: auto;
     margin-top: 8px;
-    transform: translateX(180px);
 }
 aside img{
     width: 150px;
@@ -227,14 +222,15 @@ aside:hover{
     transform: translateY(-10px);
 }
 aside p{
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 700;
     margin: 12px 0;
-    color: white;
+    color: black;
     text-align: center;
 }
 aside h3{
-    font-weight: 600;
-    color: rgb(28, 196, 145);
+    font-weight: bolder;
+    color: whitesmoke;
     font-size: 25px;
 }
 footer{
