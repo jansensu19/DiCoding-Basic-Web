@@ -107,10 +107,11 @@ p{
     color: rgb(21, 6, 230);
 }
 .container-feature{
-    max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    background: linear-gradient(200deg, #a2ea4c 800px, #07aa91 300px, #07aa91);
+}
 }
 .col-2-feature{
     flex-basis: 50%;
@@ -119,6 +120,62 @@ p{
 .col-2-feature img{
     max-width: 100%;
     padding: 50px 0;
+}
+.col-2-feature #feature2{
+    max-width: 100%;
+    margin-left: 200px;
+    padding: 50px 0;
+}
+@media only screen and (max-width: 1300px){
+    .container-feature{
+        max-width: 1300px;
+        background: linear-gradient(180deg, #a2ea4c 580px, #07aa91 300px, #07aa91);
+    }
+}
+@media only screen and (max-width: 860px){
+    .container-feature{
+        max-width: 1300px;
+        background: linear-gradient(180deg, #a2ea4c 600px, #07aa91 300px, #07aa91);
+    }
+}
+@media only screen and (max-width: 820px){
+    .container-feature{
+        margin: auto;
+        max-width: 1300px;
+        background: linear-gradient(180deg, #a2ea4c 600px, #07aa91 300px, #07aa91);
+    }
+}
+@media only screen and (max-width: 800px){
+    .container-feature{
+        max-width: 1300px;
+        background: linear-gradient(180deg, #a2ea4c 600px, #07aa91 300px, #07aa91);
+    }
+    .col-2-feature #feature2{
+        max-width: 100%;
+        margin-left: auto;
+        padding: 50px 0;
+    }
+}
+@media only screen and (max-width: 600px){
+    .container-feature{
+        margin: auto;
+        max-width: 1300px;
+        background: linear-gradient(180deg, #a2ea4c 660px, #07aa91 300px, #07aa91);
+    }
+}
+@media only screen and (max-width: 591px){
+    .container-feature{
+        margin: auto;
+        max-width: 1300px;
+        background: linear-gradient(180deg, #a2ea4c 600px, #07aa91 300px, #07aa91);
+    }
+}
+@media only screen and (max-width: 561px){
+    .container-feature{
+        margin: auto;
+        max-width: 1300px;
+        background: linear-gradient(180deg, #a2ea4c 660px, #07aa91 300px, #07aa91);
+    }
 }
 .col-2-feature h1{
     font-size: 50px;
@@ -173,7 +230,8 @@ p{
     transition: transform 0.5s;
 }
 .aboutus .col-3 img{
-    width: 50px;
+    width: 100px;
+    height: 80px;
     margin-top: 20px;
     border-radius: 50%;
 }
