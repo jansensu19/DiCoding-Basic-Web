@@ -11,3 +11,6 @@ function menutoggle(){
         MenuItems.style.maxHeight="0px";
     }
 }
+
+
+//var onclick = document.getElementById('feature').scrollon({behavior: "smooth", inline: "nearest"});
