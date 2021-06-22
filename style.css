@@ -198,22 +198,22 @@ p{
     transition: transform 0.5s;
 }
 .aboutus .col-3 img{
-    width: 200px;
-    margin-top: 20px;
+    width: 120px;
+    margin-bottom: 20px;
     border-radius: 50%;
 }
 .aboutus .col-3:hover{
     transform: translateY(-10px);
 }
 .aboutus .col-3 p{
-    font-size: 14px;
+    font-size: 16px;
     margin: 12px 0;
-    color: white;
+    color: rgb(168, 163, 163);
 }
 .aboutus .col-3 h3{
     font-weight: 600;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
 }
 aside{
     flex-basis: 50%;
@@ -230,34 +230,30 @@ aside h1{
     color: white;
     font-size: 30px;
 }
-#Indicator{
-    width: 100px;
-    border: none;
-    background: #ff523b;
-    height: 3px;
-    margin: auto;
-    margin-top: 8px;
-}
 aside img{
-    width: 150px;
+    width: 120px;
     margin-top: 20px;
     border-radius: 50%;
 }
 aside:hover{
     transform: translateY(-10px);
 }
-aside p{
-    font-size: 20px;
-    font-weight: 700;
-    margin: 12px 0;
-    color: black;
-    text-align: center;
+aside article{
+    margin: 50px;
 }
 aside h3{
     font-weight: bolder;
     color: whitesmoke;
-    font-size: 25px;
+    font-size: 22px;
 }
+aside span{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 12px 0;
+    color: rgb(168, 163, 163);
+    text-align: center;
+}
+
 footer{
     background-color: black;
     margin-top: 30px;
