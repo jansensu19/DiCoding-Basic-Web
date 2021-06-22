@@ -8,7 +8,7 @@ html{
 }
 body{
     font-family: sans-serif;
-    background-color: rgba(225, 178, 243, 0.856);
+    background-color: rgb(225, 178, 243);
 }
 header{
     position: fixed;
@@ -52,7 +52,7 @@ a{
     color: black;
 }
 p{
-    color: black;
+    color: rgb(168, 163, 163);;
 }
 /*-------- media query for menu --------*/
 @media only screen and (max-width: 800px){
@@ -112,7 +112,7 @@ p{
 .col-2 p{
     margin: 25px 5px;
     font-weight: lighter;
-    color: rgb(21, 6, 230);
+    color: rgb(58, 56, 56);
 }
 .container-feature{
     margin: auto;
@@ -154,7 +154,7 @@ p{
 .col-2-feature p{
     margin: 25px 5px;
     font-weight: lighter;
-    color: rgb(21, 6, 230);
+    color: rgb(58, 56, 56);
 }
 .btn{
     display: inline-block;
@@ -192,7 +192,7 @@ p{
     background-color: #222;
     text-align: center;
     padding: 40px 20px;
-    background-color: rgb(19, 42, 68);
+    background-color: rgb(206, 159, 147);
     box-shadow: 0 0 10px 0px rgb(75, 69, 69);;
     cursor: pointer;
     transition: transform 0.5s;
@@ -203,12 +203,13 @@ p{
     border-radius: 50%;
 }
 .aboutus .col-3:hover{
+    z-index: -500;
     transform: translateY(-10px);
 }
 .aboutus .col-3 p{
     font-size: 16px;
     margin: 12px 0;
-    color: rgb(168, 163, 163);
+    color: rgb(58, 56, 56);
 }
 .aboutus .col-3 h3{
     font-weight: 600;
@@ -219,7 +220,7 @@ aside{
     flex-basis: 50%;
     width: 400px;
     margin: auto;
-    background-color: rgb(19, 42, 68);
+    background-color: rgb(206, 159, 147);
     text-align: center;
     padding: 40px 20px;
     box-shadow: 0 0 20px 0px rgb(75, 69, 69);
@@ -243,14 +244,14 @@ aside article{
 }
 aside h3{
     font-weight: bolder;
-    color: whitesmoke;
+    color: white;
     font-size: 22px;
 }
 aside span{
     font-size: 16px;
     font-weight: 700;
     margin: 12px 0;
-    color: rgb(168, 163, 163);
+    color: rgb(58, 56, 56);
     text-align: center;
 }
 
